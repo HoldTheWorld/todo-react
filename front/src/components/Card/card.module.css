@@ -1,0 +1,74 @@
+.card_wrapper {
+width: 397px;
+height: 540px;
+background-color: #252e42;
+border-radius: 20px;
+padding: 10px;
+}
+.card_header {
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  height: 30px;
+  color: white;
+  border-radius: 5px;
+  background-color: #ff8469;
+  padding: 7px;
+  border: 1px solid transparent;
+}
+
+.card_todos {
+  display: flex;
+  flex-direction: column;
+  margin: auto ;
+
+}
+
+.oneTodo {
+  margin: 0 auto 10px 0px;
+  color: white;
+}
+
+.todo_wrapper {
+
+  display: flex;
+  flex-direction: row;
+  height: 80%;
+
+}
+.todo_wrapper button {
+  background-color: rgba(0, 0, 0, 0.151);
+  margin: auto 0;
+}
+
+input[type=checkbox]:checked ~ span {
+  text-decoration: line-through;
+  color: rgba(255, 255, 255, 0.384);
+}
+
+
+
+.checkbox {
+	appearance: none;
+
+}
+.checkbox:before {
+  content: '';
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  background-color:  #ff8469;
+
+}
+.checkbox:checked:before {
+ background-color: #41495a;
+}

@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #010920;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.author {
+  margin: 1%;
+  color: #252e42;
+}

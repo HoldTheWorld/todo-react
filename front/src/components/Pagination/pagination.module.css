@@ -1,0 +1,21 @@
+.pagination_list {
+  display: flex;
+
+}
+
+
+.pagination_list div {
+ margin: 3px;
+ text-decoration: none;
+}
+
+.pagination_list div a {
+  color: white;
+  text-decoration: none;
+ }
+
+ .pagination_list div a:hover {
+  color: rgb(223, 159, 159);
+
+ }
+
